@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class HomeScreen extends StatelessWidget {
   static const String routeName = 'Home';
 
@@ -9,8 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Islami")
-        ,
+        title: Text("Islami"),
       ),
     );
   }
